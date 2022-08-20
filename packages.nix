@@ -54,6 +54,7 @@
      neovim
      nix-bash-completions
      nixos-artwork.wallpapers.dracula
+     nodejs
      pciutils
      rcm
      slack
