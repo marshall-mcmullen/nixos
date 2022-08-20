@@ -28,6 +28,7 @@
      ack
      bash-completion
      borgbackup
+     borgmatic
      breeze-grub
      docker
      exfat
@@ -63,6 +64,7 @@
      vim
      vlc
      xscreensaver
+     yarn
      youtube-dl
   ];
 }

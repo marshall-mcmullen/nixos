@@ -4,6 +4,7 @@
     [ 
       <nixos-hardware/framework>
       ./boot.nix
+      ./borgbackup.nix
       ./desktop.nix
       ./fonts.nix
       ./hardware-configuration.nix
