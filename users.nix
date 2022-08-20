@@ -3,6 +3,6 @@
 {
   users.users.marshall = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "input" ];
   };
 }

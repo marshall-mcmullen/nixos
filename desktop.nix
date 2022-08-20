@@ -14,9 +14,11 @@
     extraPackages = with pkgs; [
       albert
       i3status
+      libinput-gestures
       swaybg
       swayidle
       swaylock
+      xdotool
     ];
     extraSessionCommands = ''
       export SDL_VIDEODRIVER=wayland
