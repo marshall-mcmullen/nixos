@@ -4,14 +4,14 @@
     [ 
       <nixos-hardware/framework>
       ./boot.nix
-      #./desktop.nix
-      ./sway.nix
+      ./desktop.nix
       ./fonts.nix
       ./hardware-configuration.nix
       ./localization.nix
       ./networking.nix
       ./packages.nix
       ./power.nix
+      ./security.nix
       ./services.nix 
       ./sound.nix
       ./users.nix

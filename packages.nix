@@ -1,7 +1,8 @@
 { pkgs, ... }:
 {
   nixpkgs.config.allowUnfree = true;
- 
+
+  # Customize the command line args used to start chrome for proper hardware acceleration. 
   nixpkgs.config.packageOverrides = pkgs: {
     google-chrome = pkgs.google-chrome.override {
 	commandLineArgs = [ 
@@ -22,11 +23,12 @@
     };
   };
 
+  # List of all packages we want to install.
   environment.systemPackages = with pkgs; [
      ack
      bash-completion
      borgbackup
-     compton
+     breeze-grub
      docker
      exfat
      file
@@ -37,10 +39,13 @@
      gnumake
      go
      google-chrome
+     gnome.gnome-keyring
      htop
      keychain
      killall
      libreoffice
+     libsecret
+     mailspring
      makemkv
      mate.mate-terminal
      meld
@@ -51,12 +56,11 @@
      nixos-artwork.wallpapers.dracula
      pciutils
      rcm
+     slack
      tmux
      usbutils
      vim
-     vimPlugins.vim-nix
      vlc
-     xorg.xkill
      xscreensaver
      youtube-dl
   ];
