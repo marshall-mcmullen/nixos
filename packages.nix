@@ -47,6 +47,7 @@
      libreoffice
      libsecret
      mailspring
+     mailutils
      makemkv
      mate.mate-terminal
      meld

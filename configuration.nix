@@ -9,6 +9,7 @@
       ./fonts.nix
       ./hardware-configuration.nix
       ./localization.nix
+      ./mail.nix
       ./networking.nix
       ./packages.nix
       ./power.nix
