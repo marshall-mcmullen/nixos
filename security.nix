@@ -1,5 +1,5 @@
 { ... }:
 
 {
-    security.pki.certificateFiles = [ ./files/zentireCA.crt ];
+    security.pki.certificates = [ (builtins.readFile /usr/local/etc/ssl/zentireCA.crt) ];
 }
