@@ -28,7 +28,6 @@
      ack
      bash-completion
      borgbackup
-     borgmatic
      breeze-grub
      docker
      exfat
@@ -37,6 +36,7 @@
      gcc
      gimp
      git
+     git-filter-repo
      gnumake
      go
      google-chrome

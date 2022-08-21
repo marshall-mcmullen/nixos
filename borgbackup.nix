@@ -10,7 +10,7 @@
     startAt = "daily";
  
     paths = [
-      "/etc/nixos"
+      "/"
     ];
 
     exclude = [
@@ -47,7 +47,12 @@
       monthly = 6;
     }; 
 
-    extraCreateArgs = "--verbose --stats";
-
+    extraCreateArgs = ''
+      --verbose
+      --filter AME
+      --list
+      --stats
+      --exclude-caches
+      '';
   };
 }
