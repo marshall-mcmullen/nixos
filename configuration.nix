@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   imports =
-    [ 
+    [
       <nixos-hardware/framework>
       ./boot.nix
       ./borgbackup.nix
@@ -14,8 +14,9 @@
       ./packages.nix
       ./power.nix
       ./security.nix
-      ./services.nix 
+      ./services.nix
       ./sound.nix
+      ./systemd-email.nix
       ./users.nix
     ];
 
