@@ -23,13 +23,6 @@
   # Optimize Nix storage
   nix.autoOptimiseStore = true;
 
-  # Some programs need SUID wrappers.
-  programs.mtr.enable = true;
-  programs.gnupg.agent = {
-    enable = true;
-    enableSSHSupport = true;
-  };
-
   # Setup virtualization
   virtualisation.docker.enable = true;
 
