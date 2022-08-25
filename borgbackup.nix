@@ -1,4 +1,4 @@
-{ config, ... }:
+{ config, pkgs, ... }:
 
 {
   services.borgbackup.jobs."system" = {
@@ -54,5 +54,18 @@
       --stats
       --exclude-caches
       '';
+
+    preHook = ''
+  
+      borg(){
+        "$(${pkgs.which}/bin/which borg)" "$@" && rc=0 || rc=$?
+
+        if [[ $rc -eq 1 ]]; then
+          return 0
+        else
+          return $rc
+        fi
+      }
+    '';
   };
 }
