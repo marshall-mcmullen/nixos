@@ -3,6 +3,10 @@
 {
   users.users.marshall = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "input" ];
+    extraGroups = [ 
+      "adbusers"
+      "input"
+      "wheel"
+    ];
   };
 }

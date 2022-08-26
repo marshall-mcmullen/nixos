@@ -17,6 +17,7 @@
       ./services.nix
       ./sound.nix
       ./systemd-email.nix
+      ./upgrade-check.nix
       ./users.nix
     ];
 

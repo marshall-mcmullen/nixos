@@ -67,5 +67,6 @@
      xscreensaver
      yarn
      youtube-dl
+     unzip
   ];
 }
