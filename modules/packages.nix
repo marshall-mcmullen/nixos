@@ -23,6 +23,7 @@
      lsscsi
      mailutils
      most
+     netdata
      neovim
      nix-bash-completions
      nodejs

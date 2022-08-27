@@ -4,6 +4,8 @@
   networking.hostName = "ghostwheel";
   networking.hostId = "cb56bcd9";
 
+  networking.firewall.allowedTCPPorts = [ 22 19999 ];
+
   # Disable all the resolv.* services as they all try to control /etc/resolv.conf
   # and none of them do it right. We know exactly what contents we want to put in
   # that file so just do it statically here.
