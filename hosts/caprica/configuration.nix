@@ -20,6 +20,7 @@
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/networking.nix
+    ./modules/packages.nix
     ./modules/power.nix
     ./modules/security.nix
     ./modules/services.nix

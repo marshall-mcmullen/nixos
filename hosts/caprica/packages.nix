@@ -25,48 +25,21 @@
 
   # List of all packages we want to install.
   environment.systemPackages = with pkgs; [
-     ack
-     bash-completion
-     borgbackup
      breeze-grub
-     docker
-     exfat
-     file
-     fwupd
-     gcc
      gimp
-     git
-     git-filter-repo
-     gnumake
-     go
      google-chrome
      gnome.gnome-keyring
-     htop
-     keychain
-     killall
      libreoffice
-     libsecret
      mailspring
-     mailutils
      makemkv
      mate.mate-terminal
      meld
      mkvtoolnix
-     most
-     neovim
-     nix-bash-completions
      nixos-artwork.wallpapers.dracula
-     nodejs
-     pciutils
-     rcm
      slack
-     tmux
      usbutils
-     vim
      vlc
      xscreensaver
-     yarn
      youtube-dl
-     unzip
   ];
 }
