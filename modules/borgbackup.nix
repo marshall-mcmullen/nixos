@@ -36,6 +36,7 @@
       "**/torrent/watch"
 
       # very large files
+      "/var/lib/containers"
       "/var/lib/docker"
       "/var/lib/kubelet"
       "/var/lib/systemd"
