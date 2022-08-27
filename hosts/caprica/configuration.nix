@@ -7,12 +7,12 @@
     <nixos-hardware/framework>
 
     # Host specific
-    ./boot.nix
     ./hardware-configuration.nix
     ./packages.nix
     ./services.nix
 
     # Zentire modules
+    ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
     ./modules/fonts.nix
     ./modules/localization.nix
