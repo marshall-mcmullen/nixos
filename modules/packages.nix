@@ -7,7 +7,6 @@
      ack
      bash-completion
      borgbackup
-     docker
      efibootmgr
      exfat
      file
@@ -31,8 +30,12 @@
      rcm
      tmux
      usbutils
-     vim
      yarn
      unzip
   ];
+
+  programs.bash.shellAliases = {
+    vi = "nvim";
+    vim = "nvim";
+  };
 }

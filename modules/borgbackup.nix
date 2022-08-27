@@ -16,7 +16,9 @@
     exclude = [
       # Linux System Files
       "/dev"
+      "/lost+found"
       "/mnt"
+      "/nix"
       "/proc"
       "/run"
       "/sys"
@@ -25,8 +27,13 @@
       "/var/run"
       "/var/tmp"
 
-      # Nix
-      "/nix"
+      # Media files will be backed up as a separate target
+      "/media"
+
+      # Torrent downloads
+      "**/torrent/download"
+      "**/torrent/session"
+      "**/torrent/watch"
 
       # very large files
       "/var/lib/docker"

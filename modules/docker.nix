@@ -1,5 +1,8 @@
 { pkgs, ... }:
+
 {
+  environment.systemPackages = with pkgs; [ docker ];
+
   virtualisation = {
     oci-containers.backend = "docker";
 

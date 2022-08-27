@@ -15,7 +15,6 @@
     ./modules/docker.nix
     ./modules/localization.nix
     ./modules/mail.nix
-    ./modules/networking.nix
     ./modules/nginx.nix
     ./modules/packages.nix
     ./modules/pihole.nix
@@ -43,3 +42,4 @@
   # Set this to the current release version
   system.stateVersion = "22.05"; # Did you read the comment?
 }
+
