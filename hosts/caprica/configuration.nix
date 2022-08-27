@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 
-{
+{ 
   networking.hostName = "caprica";
   
   imports = [
@@ -8,6 +8,7 @@
 
     # Host specific
     ./hardware-configuration.nix
+    ./networking.nix
     ./packages.nix
     ./services.nix
 
