@@ -15,6 +15,7 @@
     ./modules/docker.nix
     ./modules/localization.nix
     ./modules/mail.nix
+    ./modules/netdata.nix
     ./modules/nginx.nix
     ./modules/packages.nix
     ./modules/pihole.nix
