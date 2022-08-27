@@ -1,1 +1,0 @@
-hosts/caprica/hardware-configuration.nix
