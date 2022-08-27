@@ -7,6 +7,7 @@
     ./hardware-configuration.nix
     ./networking.nix
     ./packages.nix
+    ./zfs.nix
 
     # Zentire modules
     ./modules/bitwarden.nix
