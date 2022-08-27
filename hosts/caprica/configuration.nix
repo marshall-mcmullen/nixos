@@ -15,6 +15,7 @@
     # Zentire modules
     ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
+    ./modules/docker.nix
     ./modules/fonts.nix
     ./modules/localization.nix
     ./modules/mail.nix
@@ -29,15 +30,12 @@
     ./modules/users.nix
   ];
 
+  #===============#
+  # DO NOT MODIFY #
+  #===============#
+
   # Optimize Nix storage
   nix.autoOptimiseStore = true;
-
-  # Setup virtualization
-  virtualisation.docker.enable = true;
-
-  #===========================#
-  # Don't touch after install #
-  #===========================#
 
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix).
