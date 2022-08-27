@@ -1,9 +1,6 @@
 { pkgs, ... }:
 
 {
-  networking.hostName = "caprica";
-  networking.firewall.allowedTCPPorts = [ 22 ];
-
   # Configure NetworkManager
   networking.networkmanager = {
     enable = true;
@@ -14,7 +11,7 @@
       source = pkgs.writeText "wifi-wired-exclusive.sh" ''
           #!/usr/bin/env bash
           export LC_ALL=C
-          
+
           enable_disable_wifi ()
           {
               result=$(nmcli dev | grep "ethernet" | grep -w "connected")
@@ -26,7 +23,7 @@
                   nmcli radio wifi on
               fi
           }
-          
+
           if [[ "$2" = @(up|down) ]]; then
               enable_disable_wifi
           fi
