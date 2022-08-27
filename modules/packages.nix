@@ -8,6 +8,7 @@
      bash-completion
      borgbackup
      docker
+     efibootmgr
      exfat
      file
      fwupd
@@ -20,6 +21,7 @@
      keychain
      killall
      libsecret
+     lsscsi
      mailutils
      most
      neovim
