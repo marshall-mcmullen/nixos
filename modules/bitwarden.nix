@@ -1,8 +1,6 @@
 { ... }:
 
 {
-  networking.firewall.allowedTCPPorts = [ 8222 ];
-  
   services.vaultwarden = {
     enable = true;
     backupDir = "/var/lib/bitwarden_rs/backup";

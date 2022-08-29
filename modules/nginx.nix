@@ -15,7 +15,7 @@
       "bitwarden.zentire.com" = {
         forceSSL = true;
         sslCertificate = "/var/lib/bitwarden_rs/ssl/bitwarden.zentire.com.crt";
-	sslCertificateKey = "/var/lib/bitwarden_rs/ssl/bitwarden.zentire.com.key";
+        sslCertificateKey = "/var/lib/bitwarden_rs/ssl/bitwarden.zentire.com.key";
 
         enableACME = false;
         locations."/" = {
@@ -27,11 +27,19 @@
       "pihole.zentire.com" = {
         forceSSL = true;
         sslCertificate = "/var/lib/pihole/ssl/pihole.zentire.com.crt";
-	sslCertificateKey = "/var/lib/pihole/ssl/pihole.zentire.com.key";
+        sslCertificateKey = "/var/lib/pihole/ssl/pihole.zentire.com.key";
 
         enableACME = false;
         locations."/" = {
           proxyPass = "http://192.168.86.2:3080";
+          proxyWebsockets = true;
+        };
+      };
+
+      "wordpress.zentire.com" = {
+        enableACME = false;
+        locations."/" = {
+          proxyPass = "http://192.168.86.2:8080";
           proxyWebsockets = true;
         };
       };
