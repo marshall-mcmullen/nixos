@@ -20,7 +20,7 @@
     ./modules/netdata.nix
     ./modules/packages.nix
     ./modules/plex.nix
-    ./modules/security.nix
+    #./modules/security.nix
     ./modules/services.nix
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
