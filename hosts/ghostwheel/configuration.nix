@@ -2,10 +2,12 @@
 
 {
   imports = [
+    <nixos-hardware/dell/poweredge/r7515>
 
     # Host specific
     ./hardware-configuration.nix
     ./networking.nix
+    ./nginx.nix
     ./packages.nix
     ./zfs.nix
 
@@ -17,7 +19,6 @@
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
-    ./modules/nginx.nix
     ./modules/packages.nix
     ./modules/pihole.nix
     ./modules/plex.nix

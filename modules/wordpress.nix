@@ -3,13 +3,11 @@
 {
   services.wordpress.webserver = "nginx";
 
-  services.wordpress.sites."web" = {
-    database.createLocally = true;  # name is set to `wordpress` by default
-    themes = [ ];
-    plugins = [ ];
-    virtualHost = {
-      adminAddr = "marshall.mcmullen@gmail.com";
-      serverAliases = [ ];
-    };
+  services.wordpress.sites."localhost" = {
+    extraConfig = ''
+      // Needed to run behind reverse proxy
+      define('FORCE_SSL_ADMIN', true);
+      $_SERVER['HTTPS']='on'
+    '';
   };
 }
