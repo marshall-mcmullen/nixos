@@ -7,13 +7,11 @@
     # Host specific
     ./hardware-configuration.nix
     ./networking.nix
-    ./nginx.nix
     ./packages.nix
     ./raid.nix
     ./zfs.nix
 
     # Zentire modules
-    ./modules/bitwarden.nix
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
     ./modules/docker.nix
@@ -21,14 +19,12 @@
     ./modules/mail.nix
     ./modules/netdata.nix
     ./modules/packages.nix
-    ./modules/pihole.nix
     ./modules/plex.nix
     ./modules/security.nix
     ./modules/services.nix
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix
-    ./modules/wordpress.nix
   ];
 
   #===============#
