@@ -30,10 +30,8 @@
       # Media files will be backed up as a separate target
       "/media"
 
-      # Torrent downloads
-      "**/torrent/download"
-      "**/torrent/session"
-      "**/torrent/watch"
+      # Exclude torrents
+      "/var/lib/rtorrent"
 
       # very large files
       "/var/lib/containers"
