@@ -3,17 +3,18 @@
 {
   boot = {
     kernelPackages = config.boot.zfs.package.latestCompatibleLinuxPackages;
+    kernelParams = [ "noresume" "resume=none" ];
     supportedFilesystems = [ "zfs" ];
 
     loader = {
       efi = {
-        canTouchEfiVariables = true;
         efiSysMountPoint = "/boot/efi";
       };
 
       grub = {
+	efiInstallAsRemovable = true;
         copyKernels = true;
-        device = "nodev";
+        devices = [ "nodev" ];
         efiSupport = true;
         enable = true;
         version = 2;

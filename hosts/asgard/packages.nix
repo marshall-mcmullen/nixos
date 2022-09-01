@@ -2,6 +2,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    wordpress
+    pkgs.nodePackages.flood
   ];
 }
