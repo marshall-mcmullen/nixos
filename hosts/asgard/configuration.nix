@@ -5,6 +5,7 @@
     <nixos-hardware/dell/poweredge/r7515>
 
     # Host specific
+    ./flexget.nix
     ./hardware-configuration.nix
     ./networking.nix
     ./packages.nix

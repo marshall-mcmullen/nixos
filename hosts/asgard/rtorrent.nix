@@ -15,7 +15,7 @@
       execute = chmod,777,(cfg.rpcsock)
 
       # Watch a directory for new torrents
-      schedule = watch_start, 5, 5, ((load.start, (cat, (cfg.watch), "watch/*.torrent")))
+      schedule = watch_directory, 5, 5, "load.start=${cfg.dataDir}/watch/*.torrent"
  
       # Get full path of data of a torrent (it's a workaround for the possibly empty 'd.base_path' attribute)
       method.insert = d.data_path, simple, "if=(d.is_multi_file), (cat,(d.directory),/), (cat,(d.directory),/,(d.name))"
