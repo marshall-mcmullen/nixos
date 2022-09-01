@@ -29,6 +29,9 @@
     '';
   };
 
+  # Need to add rtorrent user to plex group so that the media we unpack can be extracted into /media
+  users.users.rtorrent.extraGroups = [ "plex" ];
+
   #---- NGINX PROXY ----#
   # Setup a proxy for XMLRPC socket
   services.nginx = {
