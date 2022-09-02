@@ -33,7 +33,7 @@
   users.users.rtorrent.extraGroups = [ "media" ];
 
   # Update the path used by the systemd service so that it can find required external tools for the rtorrent_process script.
-  systemd.services.rtorrent.path = with pkgs; [ mailutils ];
+  systemd.services.rtorrent.path = with pkgs; [ ansi2html mailutils ];
 
   #---- NGINX PROXY ----#
   # Setup a proxy for XMLRPC socket
