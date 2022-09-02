@@ -61,7 +61,6 @@
             - Star Trek Picard
             - Stranger Things
             - Ted Lasso
-            - The Blacklist
             - The Book of Boba Fett
             - The Expanse
             - The Falcon and the Winter Soldier
@@ -71,7 +70,6 @@
             - The Nevers
             - The Orville
             - The Price Is Right
-            - The Rookie
             - The Sandman
             - The Snoopy Show
             - The Terminal List
