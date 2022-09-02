@@ -5,23 +5,23 @@
     <nixos-hardware/dell/poweredge/r7515>
 
     # Host specific
-    ./flexget.nix
     ./hardware-configuration.nix
     ./networking.nix
     ./packages.nix
     ./raid.nix
-    ./rtorrent.nix
     ./zfs.nix
 
     # Zentire modules
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
     ./modules/docker.nix
+    ./modules/flexget.nix
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
     ./modules/packages.nix
     ./modules/plex.nix
+    ./modules/rtorrent.nix
     ./modules/security.nix
     ./modules/services.nix
     ./modules/systemd-email.nix
