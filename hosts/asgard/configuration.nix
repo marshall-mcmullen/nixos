@@ -28,6 +28,7 @@
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix
+    ./modules/zfs-monitor.nix
   ];
 
   #===============#
