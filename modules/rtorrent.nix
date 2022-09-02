@@ -32,6 +32,9 @@
   # Need to add rtorrent user to media group so that the media we unpack can be extracted into /media
   users.users.rtorrent.extraGroups = [ "media" ];
 
+  # Update the path used by the systemd service so that it can find required external tools for the rtorrent_process script.
+  systemd.services.rtorrent.path = with pkgs; [ mailutils ];
+
   #---- NGINX PROXY ----#
   # Setup a proxy for XMLRPC socket
   services.nginx = {
