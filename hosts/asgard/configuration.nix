@@ -19,6 +19,7 @@
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
+    ./modules/organize-media.nix
     ./modules/packages.nix
     ./modules/plex.nix
     ./modules/rtorrent.nix
