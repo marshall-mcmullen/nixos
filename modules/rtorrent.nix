@@ -9,6 +9,7 @@
     enable = true;
     port = 50000;
     openFirewall = true;
+    group = "media";
     configText = ''
 
       # Open scgi so that nginx can host it.
