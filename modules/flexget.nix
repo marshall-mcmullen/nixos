@@ -66,7 +66,7 @@
             - The Falcon and the Winter Soldier
             - The Flash
             - The Last Of Us
-            - The Lord of the Rings: The Rings of Power
+            - The Lord of the Rings The Rings of Power
             - The Mandalorian
             - The Nevers
             - The Orville
