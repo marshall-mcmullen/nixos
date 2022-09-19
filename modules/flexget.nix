@@ -64,8 +64,9 @@
             - The Book of Boba Fett
             - The Expanse
             - The Falcon and the Winter Soldier
-            - The Last Of Us
             - The Flash
+            - The Last Of Us
+            - The Lord of the Rings: The Rings of Power
             - The Mandalorian
             - The Nevers
             - The Orville
@@ -73,16 +74,16 @@
             - The Sandman
             - The Snoopy Show
             - The Terminal List
+            - The Umbrella Academy
             - The Voice (US)
             - The Walking Dead
             - The Wheel of Time
-            - Warrior Nun
             - The Witcher
             - Tom Clancy's Jack Ryan
             - Treadstone
-            - The Umbrella Academy
             - Vikings Valhalla
             - WandaVision
+            - Warrior Nun
             - What If
             - Whiskey Cavalier
             - Wild Kratts
