@@ -11,4 +11,6 @@
       "wheel"
     ];
   };
+
+  users.groups.media = {};
 }

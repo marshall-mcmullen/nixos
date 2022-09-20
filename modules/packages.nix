@@ -1,10 +1,12 @@
 { pkgs, ... }:
+
 {
   nixpkgs.config.allowUnfree = true;
 
   # List of all packages we want to install.
   environment.systemPackages = with pkgs; [
      ack
+     ansi2html
      bash-completion
      bind
      borgbackup

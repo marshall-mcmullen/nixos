@@ -9,6 +9,7 @@
     enable = true;
     port = 50000;
     openFirewall = true;
+    group = "media";
     configText = ''
 
       # Open scgi so that nginx can host it.
@@ -28,6 +29,12 @@
       encryption = require,require_RC4,enable_retry
     '';
   };
+
+  # Need to add rtorrent user to media group so that the media we unpack can be extracted into /media
+  users.users.rtorrent.extraGroups = [ "media" ];
+
+  # Update the path used by the systemd service so that it can find required external tools for the rtorrent_process script.
+  systemd.services.rtorrent.path = with pkgs; [ ansi2html mailutils ];
 
   #---- NGINX PROXY ----#
   # Setup a proxy for XMLRPC socket

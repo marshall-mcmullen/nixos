@@ -29,6 +29,7 @@
     ./modules/upgrade-check.nix
     ./modules/users.nix
     ./modules/wordpress.nix
+    ./modules/zfs-monitor.nix
   ];
 
   #===============#
