@@ -6,6 +6,7 @@
   environment.systemPackages = with pkgs; [
      ack
      bash-completion
+     bind
      borgbackup
      efibootmgr
      exfat

@@ -41,5 +41,6 @@
      vlc
      xscreensaver
      youtube-dl
+     zoom-us
   ];
 }
