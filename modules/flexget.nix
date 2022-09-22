@@ -18,6 +18,7 @@
             - American Ninja Warrior
             - Americas Funniest Home Videos
             - Among The Stars
+            - Andor
             - Battlebots
             - Big Nate
             - Britannia
