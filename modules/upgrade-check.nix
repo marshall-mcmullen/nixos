@@ -3,7 +3,7 @@
 {
   systemd.services.upgrade-check = {
     serviceConfig.Type = "oneshot";
-    path = with pkgs; [ bash nix nixos-rebuild ];
+    path = with pkgs; [ bash ncurses nix nixos-rebuild ];
     environment = { 
     	NIX_PATH = "nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels";
     };
