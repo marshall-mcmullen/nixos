@@ -5,13 +5,12 @@
     enable = true;
     accounts = {
       default = {
-        auth = true;
         aliases = "/etc/aliases";
-        tls = true;
-        from = "autobot.mcmullen@gmail.com";
+        auth = true;
         host = "smtp.gmail.com";
-        port = 587;
         passwordeval = "cat /usr/local/etc/mail/ssmtp-password";
+        port = 587;
+        tls = true;
         user = "autobot.mcmullen@gmail.com";
       };
     };
