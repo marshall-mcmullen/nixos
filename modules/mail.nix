@@ -8,11 +8,11 @@
         auth = true;
         aliases = "/etc/aliases";
         tls = true;
-        from = "marshall.mcmullen@gmail.com";
+        from = "autobot.mcmullen@gmail.com";
         host = "smtp.gmail.com";
         port = 587;
         passwordeval = "cat /usr/local/etc/mail/ssmtp-password";
-        user = "marshall.mcmullen@gmail.com";
+        user = "autobot.mcmullen@gmail.com";
       };
     };
   };
