@@ -16,7 +16,8 @@
 
   # Raw contents to put into /etc/resolv.conf
   environment.etc."resolv.conf".text = ''
-    search lan
+    domain netherrack.net
+    search netherrack.net
     nameserver 127.0.0.1
     nameserver 1.1.1.1
   '';
