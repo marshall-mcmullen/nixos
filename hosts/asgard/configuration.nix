@@ -11,20 +11,23 @@
     ./raid.nix
     ./zfs.nix
 
-    # Zentire modules
+    # Netherrack modules
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
     ./modules/docker.nix
     ./modules/flexget.nix
+    ./modules/gc.nix
+    ./modules/irqbalance.nix
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
     ./modules/organize-media.nix
     ./modules/packages.nix
     ./modules/plex.nix
+    ./modules/resilio.nix
     ./modules/rtorrent.nix
     ./modules/security.nix
-    ./modules/services.nix
+    ./modules/sshd.nix
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix

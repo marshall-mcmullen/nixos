@@ -13,12 +13,14 @@
     ./packages.nix
     ./services.nix
 
-    # Zentire modules
+    # Netherrack modules
     ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
     #./modules/cpu-native.nix
     ./modules/docker.nix
     ./modules/fonts.nix
+    ./modules/gc.nix
+    ./modules/irqbalance.nix
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
@@ -26,7 +28,7 @@
     ./modules/packages.nix
     ./modules/power.nix
     ./modules/security.nix
-    ./modules/services.nix
+    ./modules/sshd.nix
     ./modules/sound.nix
     ./modules/sway.nix
     ./modules/systemd-email.nix

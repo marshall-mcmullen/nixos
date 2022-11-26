@@ -12,13 +12,14 @@
     ./raid.nix
     ./zfs.nix
 
-    # Zentire modules
+    # Netherrack modules
     ./modules/acme.nix
     ./modules/bitwarden.nix
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
     ./modules/cloudflared.nix
     ./modules/docker.nix
+    ./modules/gc.nix
     ./modules/irqbalance.nix
     ./modules/localization.nix
     ./modules/mail.nix
