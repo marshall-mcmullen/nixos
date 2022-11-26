@@ -28,7 +28,7 @@
     ./modules/packages.nix
     ./modules/power.nix
     ./modules/security.nix
-    ./modules/services.nix
+    ./modules/sshd.nix
     ./modules/sound.nix
     ./modules/sway.nix
     ./modules/systemd-email.nix
