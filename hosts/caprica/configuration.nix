@@ -2,7 +2,9 @@
 
 { 
   networking.hostName = "caprica";
-  
+
+  nix.settings.system-features = [ "nixos-test" "benchmark" "big-parallel" "kvm" "gccarch-native" ];
+
   imports = [
     <nixos-hardware/framework>
 
@@ -14,6 +16,7 @@
     # Zentire modules
     ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
+    #./modules/cpu-native.nix
     ./modules/docker.nix
     ./modules/fonts.nix
     ./modules/localization.nix

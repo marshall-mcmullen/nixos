@@ -25,10 +25,13 @@
 
   # List of all packages we want to install.
   environment.systemPackages = with pkgs; [
+     asunder
+     cloudflared
      breeze-grub
      gimp
      google-chrome
      gnome.gnome-keyring
+     grip
      libreoffice
      mailspring
      makemkv
@@ -39,6 +42,7 @@
      slack
      usbutils
      vlc
+     wl-clipboard
      xscreensaver
      youtube-dl
      zoom-us

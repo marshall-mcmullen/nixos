@@ -29,6 +29,7 @@
      netdata
      neovim
      nix-bash-completions
+     nix-output-monitor
      nodejs
      pciutils
      rcm
