@@ -17,9 +17,10 @@
         # By default require public key AND 2FA
         AuthenticationMethods publickey,keyboard-interactive
 
-	# Only require public key, no 2FA required for these hosts/ networks
-        Match Address 192.168.86.0/24
+	# No 2FA for local network and allow root login
+        Match Address 192.168.86.*
             AuthenticationMethods publickey
+            PermitRootLogin yes
       '';
   };
 }
