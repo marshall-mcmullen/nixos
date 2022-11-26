@@ -45,7 +45,7 @@
         };
       };
  
-      "lazarus.netherrack.net" = {
+      "backup.netherrack.net" = {
         forceSSL = true;
         enableACME = false;
         sslCertificate = "/var/lib/acme/netherrack.net/cert.pem";
