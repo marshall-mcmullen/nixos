@@ -5,7 +5,6 @@
     <nixos-hardware/dell/poweredge/r7515>
 
     # Host specific
-    ./acme.nix
     ./hardware-configuration.nix
     ./networking.nix
     ./nginx.nix
@@ -14,6 +13,7 @@
     ./zfs.nix
 
     # Zentire modules
+    ./modules/acme.nix
     ./modules/bitwarden.nix
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
