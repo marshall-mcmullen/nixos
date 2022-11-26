@@ -5,6 +5,7 @@
     <nixos-hardware/dell/poweredge/r7515>
 
     # Host specific
+    ./acme.nix
     ./hardware-configuration.nix
     ./networking.nix
     ./nginx.nix
@@ -16,7 +17,9 @@
     ./modules/bitwarden.nix
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
+    ./modules/cloudflared.nix
     ./modules/docker.nix
+    ./modules/irqbalance.nix
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
@@ -24,7 +27,7 @@
     ./modules/pihole.nix
     ./modules/plex.nix
     ./modules/security.nix
-    ./modules/services.nix
+    ./modules/sshd-2fa.nix
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix
