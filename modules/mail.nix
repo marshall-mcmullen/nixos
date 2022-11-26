@@ -7,6 +7,7 @@
       default = {
         aliases = "/etc/aliases";
         auth = true;
+        from = "autobot.mcmullen@gmail.com";
         host = "smtp.gmail.com";
         passwordeval = "cat /usr/local/etc/mail/ssmtp-password";
         port = 587;
