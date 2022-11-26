@@ -8,6 +8,7 @@
     ./hardware-configuration.nix
     ./networking.nix
     ./packages.nix
+    ./plex-sync.nix
     ./raid.nix
     ./zfs.nix
 
