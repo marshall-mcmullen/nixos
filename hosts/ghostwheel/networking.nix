@@ -5,7 +5,7 @@
   networking.hostId = "1d5c022b";
 
   networking.firewall.allowedUDPPorts = [ 53 ];
-  networking.firewall.allowedTCPPorts = [ 22 53 ];
+  networking.firewall.allowedTCPPorts = [ 53 ];
 
   # Disable all the resolv.* services as they all try to control /etc/resolv.conf
   # and none of them do it right. We know exactly what contents we want to put in
@@ -16,7 +16,8 @@
 
   # Raw contents to put into /etc/resolv.conf
   environment.etc."resolv.conf".text = ''
-    search lan
+    domain netherrack.net
+    search netherrack.net
     nameserver 127.0.0.1
     nameserver 1.1.1.1
   '';

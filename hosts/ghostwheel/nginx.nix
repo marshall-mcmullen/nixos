@@ -33,6 +33,28 @@
           proxyWebsockets = true;
         };
       };
+
+      "torrent.netherrack.net" = {
+        forceSSL = true;
+        enableACME = false;
+        sslCertificate = "/var/lib/acme/netherrack.net/cert.pem";
+        sslCertificateKey = "/var/lib/acme/netherrack.net/key.pem";
+        locations."/" = {
+          proxyPass = "http://192.168.86.4:3001";
+          proxyWebsockets = true;
+        };
+      };
+ 
+      "backup.netherrack.net" = {
+        forceSSL = true;
+        enableACME = false;
+        sslCertificate = "/var/lib/acme/netherrack.net/cert.pem";
+        sslCertificateKey = "/var/lib/acme/netherrack.net/key.pem";
+        locations."/" = {
+          proxyPass = "http://192.168.86.8:5000";
+          proxyWebsockets = true;
+        };
+      };
     };
   };
 }
