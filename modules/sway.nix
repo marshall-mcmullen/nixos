@@ -38,6 +38,7 @@
   services.xserver.displayManager.defaultSession = "sway";
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.displayManager.gdm.wayland = true;
+  security.pam.services.gdm.enableGnomeKeyring = true;
 
   # Enable Video Hardware Acceleration
   hardware.video.hidpi.enable = true;
