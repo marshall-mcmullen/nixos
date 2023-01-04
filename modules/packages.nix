@@ -34,6 +34,7 @@
      pciutils
      rcm
      tmux
+     tree
      usbutils
      yarn
      unzip
