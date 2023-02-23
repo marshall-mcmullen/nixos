@@ -26,7 +26,7 @@
       export QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
       export _JAVA_AWT_WM_NONREPARENTING=1
       export MOZ_ENABLE_WAYLAND=1
-      eval $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh);
+      eval $(gnome-keyring-daemon --start);
       export SSH_AUTH_SOCK;
     '';
   };
@@ -38,7 +38,6 @@
   services.xserver.displayManager.defaultSession = "sway";
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.displayManager.gdm.wayland = true;
-  security.pam.services.gdm.enableGnomeKeyring = true;
 
   # Enable Video Hardware Acceleration
   hardware.video.hidpi.enable = true;
@@ -54,6 +53,9 @@
     ];
   };
 
-  # Various desktop apps require gnome-keyring (including mailspring)
+  # Various desktop apps require gnome services to be running
+  security.pam.services.gdm.enableGnomeKeyring = true;
+  services.accounts-daemon.enable = true;
   services.gnome.gnome-keyring.enable = true;
+  services.gnome.gnome-online-accounts.enable = true;
 }

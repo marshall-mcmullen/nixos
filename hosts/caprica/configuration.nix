@@ -14,23 +14,24 @@
     ./services.nix
 
     # Netherrack modules
+    ./modules/chrome.nix
     ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
-    #./modules/cpu-native.nix
     ./modules/docker.nix
     ./modules/fonts.nix
     ./modules/gc.nix
+    ./modules/gnome-i3.nix
     ./modules/irqbalance.nix
     ./modules/localization.nix
     ./modules/mail.nix
     ./modules/netdata.nix
     ./modules/networking.nix
+    ./modules/opengl.nix
     ./modules/packages.nix
     ./modules/power.nix
     ./modules/security.nix
     ./modules/sshd.nix
     ./modules/sound.nix
-    ./modules/sway.nix
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix
@@ -41,7 +42,7 @@
   #===============#
 
   # Optimize Nix storage
-  nix.autoOptimiseStore = true;
+  nix.settings.auto-optimise-store = true;
 
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix).
