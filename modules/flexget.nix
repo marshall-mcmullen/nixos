@@ -13,7 +13,8 @@
         tv:
           series:
             - 1883
-            - A Discovery Of Witches
+            - 1899
+            - 1923
             - Ahsoka
             - American Ninja Warrior
             - Americas Funniest Home Videos
@@ -66,6 +67,7 @@
             - The Expanse
             - The Falcon and the Winter Soldier
             - The Flash
+            - The Handmaid's Tale
             - The Last Of Us
             - The Lord of the Rings The Rings of Power
             - The Mandalorian
