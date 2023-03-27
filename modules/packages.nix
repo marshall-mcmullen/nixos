@@ -15,6 +15,7 @@
      file
      fwupd
      gcc
+     gcr
      git
      git-filter-repo
      gnumake
