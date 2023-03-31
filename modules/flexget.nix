@@ -18,7 +18,6 @@
             - Ahsoka
             - American Ninja Warrior
             - Americas Funniest Home Videos
-            - Among The Stars
             - Andor
             - Battlebots
             - Big Nate
@@ -30,30 +29,24 @@
             - Expedition Unknown
             - For All Mankind
             - Foundation
-            - Hanna
             - Hawkeye
             - He-Man and the Masters of the Universe 2021
-            - Holey Moley
             - House of the Dragon
             - Hunted
             - I Am Groot
             - Is It Cake
             - Legion
-            - Locke and Key
+            - Lockwood \& Co.
             - Loki
             - Lost In Space
             - Manifest
-            - Marvels Cloak And Dagger
-            - Marvels Guardians Of The Galaxy
-            - Marvels Spider-Man
+            - Cloak And Dagger
             - Moon Knight
-            - Ms Marvel
-            - Ninjago Masters of Spinjitzu
             - Obi-Wan Kenobi
             - Patriot
+            - Rabbit Hole
             - Raised By Wolves
             - Reacher
-            - Savage Builds
             - SEAL Team
             - Severance
             - Shadow and Bone
@@ -64,34 +57,28 @@
             - Stranger Things
             - Ted Lasso
             - The Book of Boba Fett
-            - The Expanse
             - The Falcon and the Winter Soldier
-            - The Flash
-            - The Handmaid's Tale
             - The Last Of Us
             - The Lord of the Rings The Rings of Power
             - The Mandalorian
-            - The Nevers
-            - The Orville
+            - The Peripheral
             - The Price Is Right
             - The Sandman
             - The Snoopy Show
             - The Terminal List
             - The Umbrella Academy
             - The Voice (US)
-            - The Walking Dead
             - The Wheel of Time
             - The Witcher
             - Tom Clancy's Jack Ryan
             - Treadstone
-            - Vikings Valhalla
             - WandaVision
             - Warrior Nun
             - What If
             - Whiskey Cavalier
             - Wild Kratts
             - Willow
-            - Wizards Tales of Arcadia
+            - Wolf Pack
             - Yellowstone 2018
       
       tasks:
