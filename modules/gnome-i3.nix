@@ -14,6 +14,7 @@
       displayManager.gdm.enable = true;
       displayManager.gdm.wayland = false;
       desktopManager.gnome.enable = false;
+      libinput.touchpad.naturalScrolling = true;
 
       windowManager.i3 = {
         enable = true;

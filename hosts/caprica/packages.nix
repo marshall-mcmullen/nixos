@@ -7,10 +7,12 @@
      asunder
      cloudflared
      breeze-grub
+     ffmpeg
      gimp
-     google-chrome
      gnome.gnome-control-center
      gnome.gnome-keyring
+     google-chrome
+     google-cloud-sdk
      grip
      libreoffice
      mailspring
@@ -24,6 +26,7 @@
      vlc
      wl-clipboard
      youtube-dl
+     yt-dlp
      zoom-us
   ];
 }
