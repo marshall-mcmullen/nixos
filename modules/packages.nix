@@ -15,6 +15,7 @@
      file
      fwupd
      gcc
+     gcr
      git
      git-filter-repo
      gnumake
@@ -34,6 +35,7 @@
      pciutils
      rcm
      tmux
+     tree
      usbutils
      yarn
      unzip
