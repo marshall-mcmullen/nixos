@@ -6,7 +6,7 @@
   systemd.services.cloudflared = {
     description = "CloudFlare Tunnel daemon (and DNS-over-HTTPS client)";
     enable = true;
-    after = [ "docker-pihole" ];
+    after = [ "docker-pihole.service" ];
     path = with pkgs; [ cloudflared ];
     serviceConfig = {
       Type = "simple";
