@@ -13,5 +13,6 @@
     dnsProvider = "cloudflare";
     credentialsFile = "/usr/local/etc/cloudflared/certs.secret";
     dnsPropagationCheck = true;
+    postRun = "systemctl restart nginx";
   };
 }
