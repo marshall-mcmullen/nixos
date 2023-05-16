@@ -41,7 +41,7 @@
   #===============#
 
   # Optimize Nix storage
-  nix.autoOptimiseStore = true;
+  nix.settings.auto-optimise-store = true;
 
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix).
