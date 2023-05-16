@@ -24,7 +24,7 @@
             - Britannia
             - Carmen Sandiego
             - Carnival Row
-	    - Citadel
+            - Citadel
             - Condor
             - Cosmos A Spacetime Odyssey
             - Expedition Unknown
@@ -54,7 +54,7 @@
             - Shark Tank
             - She-Hulk Attorney At Law
             - Sherlock
-	    - Silo
+            - Silo
             - Star Trek Picard
             - Stranger Things
             - Ted Lasso
