@@ -33,7 +33,6 @@
             - Hawkeye
             - He-Man and the Masters of the Universe 2021
             - House of the Dragon
-            - Hunted
             - I Am Groot
             - Is It Cake
             - Legion
@@ -45,6 +44,7 @@
             - Moon Knight
             - Obi-Wan Kenobi
             - Patriot
+            - Peanuts
             - Rabbit Hole
             - Raised By Wolves
             - Reacher

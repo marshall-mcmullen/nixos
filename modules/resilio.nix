@@ -11,7 +11,7 @@
 
     sharedFolders = [
       {
-        secret         = "A6EMOHCZPF7INP6BUR2VUX4SD7UHZR35R";
+        secret         = "A67ZDPY7I6UBY2YTQIVSWGSZHIPT5S226";
         directory      = "/var/lib/resilio-sync/shared/marshall";
 	useRelayServer = false;
 	useTracker     = true;
@@ -21,7 +21,7 @@
 	knownHosts     = [];
       }
       {
-        secret         = "AXFCOC7WKBWDFT24RXF3CLSONEWKYQ6AC";
+        secret         = "AZ3IIRP2ELWNXAEWEYQ6ZM2UYGWS5UIUI";
 	directory      = "/var/lib/resilio-sync/shared/jessica";
 	useRelayServer = false;
 	useTracker     = true;
