@@ -6,7 +6,10 @@
   environment.systemPackages = with pkgs; [
      asunder
      cloudflared
+     brasero
      breeze-grub
+     cdrtools
+     envsubst
      ffmpeg
      gimp
      gnome.gnome-control-center
@@ -21,6 +24,7 @@
      meld
      mkvtoolnix
      nixos-artwork.wallpapers.dracula
+     patchelf
      slack
      usbutils
      vlc
