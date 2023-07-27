@@ -10,6 +10,7 @@
 
     # Host specific
     ./hardware-configuration.nix
+    ./kernel-modules.nix
     ./packages.nix
     ./services.nix
 
