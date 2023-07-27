@@ -8,8 +8,7 @@
     ports = [
       "53:53/tcp"
       "53:53/udp"
-      "3080:80"
-      "30443:443"
+      "3080:3080"
     ];
     volumes = [
       "/var/lib/pihole/pihole/:/etc/pihole/"
@@ -20,6 +19,7 @@
 
     extraOptions = [
       "--cap-add=NET_ADMIN"
+      "--network=host"
     ];
 
   };

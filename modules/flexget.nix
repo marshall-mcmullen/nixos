@@ -24,6 +24,7 @@
             - Britannia
             - Carmen Sandiego
             - Carnival Row
+            - Citadel
             - Condor
             - Cosmos A Spacetime Odyssey
             - Expedition Unknown
@@ -32,7 +33,6 @@
             - Hawkeye
             - He-Man and the Masters of the Universe 2021
             - House of the Dragon
-            - Hunted
             - I Am Groot
             - Is It Cake
             - Legion
@@ -44,15 +44,18 @@
             - Moon Knight
             - Obi-Wan Kenobi
             - Patriot
+            - Peanuts
             - Rabbit Hole
             - Raised By Wolves
             - Reacher
             - SEAL Team
+            - Secret Invasion
             - Severance
             - Shadow and Bone
             - Shark Tank
             - She-Hulk Attorney At Law
             - Sherlock
+            - Silo
             - Star Trek Picard
             - Stranger Things
             - Ted Lasso
