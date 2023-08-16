@@ -7,7 +7,16 @@
     isNormalUser = true;
     extraGroups = [ 
       "adbusers"
+      "audio"
+      "cdrom"
+      "dialout"
+      "disk"
+      "docker"
       "input"
+      "lp"
+      "media"
+      "networkmanager"
+      "scanner"
       "video"
       "wheel"
     ];
