@@ -56,6 +56,7 @@
             - She-Hulk Attorney At Law
             - Sherlock
             - Silo
+            - Special Ops Lioness
             - Star Trek Picard
             - Stranger Things
             - Ted Lasso
