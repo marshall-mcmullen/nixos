@@ -10,7 +10,9 @@
      breeze-grub
      cdrtools
      envsubst
+     fd
      ffmpeg
+     fzf
      gimp
      gnome.gnome-control-center
      gnome.gnome-keyring
