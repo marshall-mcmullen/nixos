@@ -43,7 +43,6 @@
             - Cloak And Dagger
             - Moon Knight
             - Obi-Wan Kenobi
-            - Patriot
             - Peanuts
             - Rabbit Hole
             - Raised By Wolves
