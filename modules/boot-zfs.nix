@@ -17,7 +17,6 @@
         devices = [ "nodev" ];
         efiSupport = true;
         enable = true;
-        version = 2;
         zfsSupport = true;
       };
 
