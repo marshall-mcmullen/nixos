@@ -1,6 +1,5 @@
 { config, pkgs, lib, ... }:
 {
-  hardware.video.hidpi.enable = true;
   hardware.opengl = {
     enable = true;
     driSupport = true;
