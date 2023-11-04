@@ -25,6 +25,7 @@
             - Carmen Sandiego
             - Carnival Row
             - Citadel
+            - Cloak And Dagger
             - Condor
             - Cosmos A Spacetime Odyssey
             - Expedition Unknown
@@ -40,10 +41,9 @@
             - Loki
             - Lost In Space
             - Manifest
-            - Cloak And Dagger
             - Moon Knight
+            - Next Level Chef
             - Obi-Wan Kenobi
-            - Patriot
             - Peanuts
             - Rabbit Hole
             - Raised By Wolves

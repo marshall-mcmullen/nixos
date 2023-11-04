@@ -12,8 +12,10 @@
 
   services.openssh = {
     enable = true;
-    permitRootLogin = "no";
-    passwordAuthentication = false;
+    settings = {
+      PermitRootLogin = "no";
+      PasswordAuthentication = false;
+    };
     extraConfig =
       ''
         # Listen on additional port 7722 that will be used for SSH in over cloudflare
