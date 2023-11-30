@@ -6,7 +6,7 @@
   nix.settings.system-features = [ "nixos-test" "benchmark" "big-parallel" "kvm" "gccarch-native" ];
 
   imports = [
-    <nixos-hardware/framework>
+    <nixos-hardware/framework/13-inch/12th-gen-intel>
 
     # Host specific
     ./hardware-configuration.nix
