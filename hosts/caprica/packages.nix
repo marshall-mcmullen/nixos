@@ -24,6 +24,7 @@
      google-cloud-sdk
      grip
      libreoffice
+     libsecret
      mailspring
      makemkv
      mate.mate-terminal
