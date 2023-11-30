@@ -3,7 +3,7 @@
   nixpkgs.config.allowUnfree = true;
 
   nixpkgs.config.permittedInsecurePackages = [
-	"mailspring-1.11.0"
+	"mailspring-1.12.0"
   ];
 
   # List of all packages we want to install.
