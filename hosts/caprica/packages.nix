@@ -31,6 +31,7 @@
      mkvtoolnix
      nixos-artwork.wallpapers.dracula
      patchelf
+     picom
      slack
      usbutils
      vlc
