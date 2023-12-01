@@ -2,10 +2,6 @@
 {
   nixpkgs.config.allowUnfree = true;
 
-  nixpkgs.config.permittedInsecurePackages = [
-	"mailspring-1.12.0"
-  ];
-
   # List of all packages we want to install.
   environment.systemPackages = with pkgs; [
      asunder
@@ -24,8 +20,6 @@
      google-cloud-sdk
      grip
      libreoffice
-     libsecret
-     mailspring
      makemkv
      mate.mate-terminal
      meld
@@ -34,6 +28,7 @@
      patchelf
      picom
      slack
+     thunderbird-unwrapped
      usbutils
      vlc
      wl-clipboard
