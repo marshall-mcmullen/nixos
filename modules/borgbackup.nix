@@ -27,9 +27,6 @@
       "/var/run"
       "/var/tmp"
 
-      # Media files will be backed up as a separate target
-      "/media"
-
       # Exclude torrents
       "/var/lib/rtorrent"
 
@@ -52,6 +49,10 @@
       weekly = 4;
       monthly = 6;
     }; 
+
+    extraArgs = ''
+      --remote-path=/usr/local/bin/borg
+      '';
 
     extraCreateArgs = ''
       --verbose
