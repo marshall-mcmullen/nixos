@@ -20,14 +20,15 @@
      google-cloud-sdk
      grip
      libreoffice
-     mailspring
      makemkv
      mate.mate-terminal
      meld
      mkvtoolnix
      nixos-artwork.wallpapers.dracula
      patchelf
+     picom
      slack
+     thunderbird-unwrapped
      usbutils
      vlc
      wl-clipboard
