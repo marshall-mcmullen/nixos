@@ -24,6 +24,7 @@
       "/sys"
       "/tmp"
       "/var/cache"
+      "/var/log"
       "/var/run"
       "/var/tmp"
 
