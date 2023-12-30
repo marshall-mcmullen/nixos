@@ -45,6 +45,7 @@
             - Next Level Chef
             - Obi-Wan Kenobi
             - Peanuts
+            - Percy Jackson and the Olympians
             - Rabbit Hole
             - Raised By Wolves
             - Reacher

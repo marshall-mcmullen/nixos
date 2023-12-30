@@ -10,6 +10,7 @@
      bash-completion
      bind
      borgbackup
+     colordiff
      efibootmgr
      exfat
      file
