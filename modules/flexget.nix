@@ -28,6 +28,7 @@
             - Cloak And Dagger
             - Condor
             - Cosmos A Spacetime Odyssey
+            - Echo
             - Expedition Unknown
             - For All Mankind
             - Foundation
