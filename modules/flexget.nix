@@ -37,8 +37,8 @@
             - House of the Dragon
             - I Am Groot
             - Is It Cake
+            - La Brea
             - Legion
-            - Lockwood \& Co.
             - Loki
             - Lost In Space
             - Manifest
