@@ -78,7 +78,6 @@
             - The Witcher
             - Tom Clancy's Jack Ryan
             - Treadstone
-            - WandaVision
             - Warrior Nun
             - What If
             - Whiskey Cavalier
