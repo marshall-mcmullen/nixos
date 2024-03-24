@@ -12,6 +12,7 @@
 
         tv:
           series:
+            - 3 Body Problem
             - 1883
             - 1899
             - 1923
