@@ -31,14 +31,13 @@
             - Cosmos A Spacetime Odyssey
             - Echo
             - Expedition Unknown
+            - Fallout
             - For All Mankind
             - Foundation
             - Hawkeye
-            - He-Man and the Masters of the Universe 2021
             - House of the Dragon
             - I Am Groot
             - Is It Cake
-            - La Brea
             - Legion
             - Loki
             - Lost In Space
@@ -70,7 +69,6 @@
             - The Mandalorian
             - The Peripheral
             - The Price Is Right
-            - The Sandman
             - The Snoopy Show
             - The Terminal List
             - The Umbrella Academy
