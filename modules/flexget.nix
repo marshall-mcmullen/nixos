@@ -12,6 +12,7 @@
 
         tv:
           series:
+            - 3 Body Problem
             - 1883
             - 1899
             - 1923
@@ -28,16 +29,17 @@
             - Cloak And Dagger
             - Condor
             - Cosmos A Spacetime Odyssey
+            - Dark Matter
+            - Echo
             - Expedition Unknown
+            - Fallout
             - For All Mankind
             - Foundation
             - Hawkeye
-            - He-Man and the Masters of the Universe 2021
             - House of the Dragon
             - I Am Groot
             - Is It Cake
             - Legion
-            - Lockwood \& Co.
             - Loki
             - Lost In Space
             - Manifest
@@ -45,6 +47,7 @@
             - Next Level Chef
             - Obi-Wan Kenobi
             - Peanuts
+            - Percy Jackson and the Olympians
             - Rabbit Hole
             - Raised By Wolves
             - Reacher
@@ -67,7 +70,6 @@
             - The Mandalorian
             - The Peripheral
             - The Price Is Right
-            - The Sandman
             - The Snoopy Show
             - The Terminal List
             - The Umbrella Academy
@@ -76,7 +78,6 @@
             - The Witcher
             - Tom Clancy's Jack Ryan
             - Treadstone
-            - WandaVision
             - Warrior Nun
             - What If
             - Whiskey Cavalier

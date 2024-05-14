@@ -7,12 +7,14 @@
     # Host specific
     ./hardware-configuration.nix
     ./networking.nix
+    ./nginx.nix
     ./packages.nix
     ./plex-sync.nix
     ./raid.nix
     ./zfs.nix
 
     # Netherrack modules
+    ./modules/acme.nix
     ./modules/boot-zfs.nix
     ./modules/borgbackup.nix
     ./modules/docker.nix
@@ -32,6 +34,7 @@
     ./modules/systemd-email.nix
     ./modules/upgrade-check.nix
     ./modules/users.nix
+    ./modules/vaultwarden.nix
     ./modules/zfs-monitor.nix
   ];
 
