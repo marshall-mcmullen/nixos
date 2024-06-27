@@ -22,6 +22,7 @@
      gnumake
      go
      htop
+     jq
      keychain
      killall
      libsecret
