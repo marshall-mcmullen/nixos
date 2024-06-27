@@ -22,8 +22,6 @@
             - Andor
             - Battlebots
             - Big Nate
-            - Britannia
-            - Carmen Sandiego
             - Carnival Row
             - Citadel
             - Cloak And Dagger
@@ -46,9 +44,9 @@
             - Moon Knight
             - Next Level Chef
             - Obi-Wan Kenobi
+            - Orphan Black Echoes
             - Peanuts
             - Percy Jackson and the Olympians
-            - Rabbit Hole
             - Raised By Wolves
             - Reacher
             - SEAL Team
@@ -56,7 +54,6 @@
             - Severance
             - Shadow and Bone
             - Shark Tank
-            - She-Hulk Attorney At Law
             - Sherlock
             - Silo
             - Special Ops Lioness
