@@ -32,7 +32,6 @@
      usbutils
      vlc
      wl-clipboard
-     youtube-dl
      yt-dlp
      zoom-us
   ];
