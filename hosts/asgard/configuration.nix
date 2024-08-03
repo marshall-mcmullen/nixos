@@ -15,7 +15,7 @@
 
     # Netherrack modules
     ./modules/acme.nix
-    ./modules/boot-zfs.nix
+    ./modules/boot-systemd.nix
     ./modules/borgbackup.nix
     ./modules/docker.nix
     ./modules/flexget.nix
